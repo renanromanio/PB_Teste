@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "..\Repository
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Service\Service.csproj", "{126288A4-6504-4C16-950F-CE04A39360F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pb_Teste_TesteUnitario", "..\Pb_Teste_TesteUnitario\Pb_Teste_TesteUnitario.csproj", "{341FC6D2-665A-4182-ABE8-AC22342BF2E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pb_Teste_TesteUnitario", "..\Pb_Teste_TesteUnitario\Pb_Teste_TesteUnitario.csproj", "{341FC6D2-665A-4182-ABE8-AC22342BF2E8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1A242E18-8C37-4D56-A2A4-B15CAC4E7C78} = {1A242E18-8C37-4D56-A2A4-B15CAC4E7C78}
 	EndProjectSection

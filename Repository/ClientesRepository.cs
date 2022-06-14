@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class ClientesRepositorio
+    public class ClientesRepository
     {
         public ApplicationDbContext context { get; set; }
 
-        public ClientesRepositorio()
+        public ClientesRepository()
         {
             context = new ApplicationDbContext(new DbContextOptionsBuilder<ApplicationDbContext>().Options);
         }

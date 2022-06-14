@@ -5,11 +5,11 @@ namespace Service
 {
     public class ClienteService
     {
-        public ClientesRepositorio repositorio { get; set; }
+        public ClientesRepository repositorio { get; set; }
 
         public ClienteService()
         {
-            repositorio = new ClientesRepositorio();
+            repositorio = new ClientesRepository();
         }
 
         public void Inserir(Cliente novoCliente)
